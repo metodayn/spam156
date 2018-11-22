@@ -57,7 +57,7 @@ client.on('message', message => { // لا تغير شئ عشان ما تخرب �
 if (message.content === '!hi') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 900000; x++) {
+      for(let x = 0; x < 90000; x++) {
         message.channel.send(`**metodayn is the best metodayn is the best metodayn is the best**[ " ${x} " ]`)
           .then(m => {
             count++;
