@@ -57,7 +57,7 @@ client.on('message', message => { // لا تغير شئ عشان ما تخرب �
 if (message.content === '!hi') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
+      for(let x = 0; x < 900000; x++) {
         message.channel.send(`**metodayn is the best metodayn is the best metodayn is the best**[ " ${x} " ]`)
           .then(m => {
             count++;
@@ -68,11 +68,11 @@ if (message.content === '!hi') {
 });
 
 client2.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '!spam') {
+if (message.content === '!hi') {
       let count = 0;
       let ecount = 0;
       for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+        message.channel.send(`**metodayn is the best metodayn is the best metodayn is the best **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
